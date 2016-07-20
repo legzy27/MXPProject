@@ -1,0 +1,55 @@
+<html>
+<head><style type="text/css">h1 {background-color:#9999CC}
+h2 {background-color:#BBBBCC}
+h3 {background-color:#DDDDFF}
+th {border:1px solid black;background-color:#CCCCDD;}
+td{border:1px solid black;}
+table {border:1px solid black;border-collapse: collapse;}
+.chart {border:0px none black;border-collapse: collapse;background-color: none;}
+.passed {background-color:lightgreen;font-weight:bold;color:darkgreen}
+.failed {background-color:tomato;font-weight:bold;color:darkred}
+.undefined {background-color:gold;font-weight:bold;color:goldenrod}
+.skipped {background-color:silver;font-weight:bold;color:darkgray}
+.passed_description {background-color:#D0FFD0;font-weight:bold;font-style:italic;color:black}
+.failed_description {background-color:#FFA898;font-weight:bold;font-style:italic;color:black}
+OL { counter-reset: item }
+OL>LI { display: block }
+OL>LI:before { content: counters(item, ".") " "; counter-increment: item }
+</style>
+<title>Detailed Results Report</title>
+  </head>
+  <body>
+  <h1>Overview</h1>
+<table><tr><th></th><th>Passed</th><th>Failed</th><th>Undefined</th><th>%Passed</th></tr><tr><th>Features</th><td class="passed">0</td><td class="failed">1</td><td class="undefined">0</td><td>0.00</td></tr><tr><th>Scenarios</th><td class="passed">0</td><td class="failed">1</td><td class="undefined">0</td><td>0.00</td></tr><tr><th>Steps</th><td class="passed">5</td><td class="failed">1</td><td class="undefined">4</td><td>50.00</td></tr></table><div><b>Overall Duration: 0h 01m 15s</b></div>
+<a id="top"></a><h1>Table of Contents</h1><ol><li> <span class="failed"><a href="#feature-this-is-new-upgraded-mazda-europe-homepage">This is new upgraded Mazda Europe Homepage</a></span><ol><li> <span class="failed"><a href="#sc-this-is-new-upgraded-mazda-europe-homepage;i-want-to-drive-a-mazda-car">I want to drive a mazda car</a></span></li></ol></li></ol><h1>Detailed Results Report</h1><table width="700px"><tr class="failed"><td colspan="4"><b>Feature:</b> <a id="feature-this-is-new-upgraded-mazda-europe-homepage">This is new upgraded Mazda Europe Homepage</a></td></tr><tr class="failed_description"><td colspan="4"><br>As a user i want to find a dealer and test drive a car</br></td></tr><tr class="failed"><td><small><b>Passed:</b> 0</small></td><td><small><b>Failed:</b> 1</small></td><td><small><b>Undefined:</b> 0</small></td><td><small>Duration: 75.69s</small></td></tr><tr class="failed"><td colspan="4" style="padding-left:20px"> <table width="100%"><tr class="failed"><td colspan="4"><b>Scenario:</b> <a id="sc-this-is-new-upgraded-mazda-europe-homepage;i-want-to-drive-a-mazda-car">I want to drive a mazda car</a></td></tr><tr class="failed_description"><td colspan="4"><br></br></td></tr><tr class="failed"><td><small><b>Passed:</b> 5</small></td><td><small><b>Failed:</b> 1</small></td><td><small><b>Undefined:</b> 4</small></td><td><small>Duration: 75.69s</small></td></tr><tr class="passed"><td>Before</td><td colspan="2"></td><td width="100">9.97s</td></tr><tr class="passed"><td colspan="4"><br></br></td></tr><tr class="failed"><td colspan="4" style="padding-left:20px"> <table width="100%"><tr class="passed"><td><b>Given </b> I want to test drive a car</td><td width="100">1.31s</td></tr><tr class="passed"><td><b>When </b> I click Book a Test Drive</td><td width="100">1.98s</td></tr><tr class="passed"><td><b>Then </b> I see collection of vehicles</td><td width="100">0.14s</td></tr><tr class="passed"><td><b>Then </b> I select one vehicle</td><td width="100">0.09s</td></tr><tr class="passed"><td><b>Then </b> I select a dealer</td><td width="100">1.64s</td></tr><tr class="failed"><td><b>Then </b> I select a date and time</td><td width="100">60.56s</td></tr><tr class="failed"><td colspan="2"><div><br>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]&quot;}
+Command duration or timeout: 60.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c89ffee5-8fba-437f-99f1-8702f18891bf
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]}</br><br>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</br><br>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</br><br>
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</br><br>
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)</br><br>
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)</br><br>
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)</br><br>
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)</br><br>
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)</br><br>
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)</br><br>
+	at org.openqa.selenium.By&#36;ByXPath.findElement(By.java:361)</br><br>
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)</br><br>
+	at com.mazda.MXPProject.Step_Definition.i_select_a_date_and_time(Step_Definition.java:347)</br><br>
+	at &#10045;.Then I select a date and time(Homepage.feature:31)</br><br>
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: unknown</br><br>
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous3477647189411157619webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)</br><br>
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous3477647189411157619webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)</br><br>
+</br></div></td></tr><tr class="skipped"><td><b>Then </b> I enter contact details</td><td width="100">0.00s</td></tr><tr class="skipped"><td><b>Then </b> I request a Test Drive</td><td width="100">0.00s</td></tr><tr class="skipped"><td><b>Then </b> I will see Thank You!</td><td width="100">0.00s</td></tr><tr class="skipped"><td><b>And </b> I close the browser</td><td width="100">0.00s</td></tr></table></td></tr><tr class="passed"><td>After</td><td colspan="2"></td><td width="100">0.01s</td></tr><tr class="passed"><td colspan="4"><br></br></td></tr><tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr></table></td></tr><tr><td colspan="5"></td></tr></table>	
+	</body>
+</html>

@@ -1,0 +1,46 @@
+@Findadealer @slow
+Feature: This is new upgraded Mazda Europe Homepage
+  As a user i want to find a dealer and test drive a car
+[34mCurrent Page URL is about:blank&utm_content=firstrun[0m
+
+  Scenario: I want to drive a mazda car [90m# Homepage.feature:25[0m
+    [32mGiven [0m[32mI want to test drive a car[0m    [90m# Step_Definition.i_want_to_test_drive_a_car()[0m
+    [32mWhen [0m[32mI click Book a Test Drive[0m      [90m# Step_Definition.i_click_Book_a_Test_Drive()[0m
+    [32mThen [0m[32mI see collection of vehicles[0m   [90m# Step_Definition.i_see_collection_of_vehicles()[0m
+    [32mThen [0m[32mI select one vehicle[0m           [90m# Step_Definition.i_select_one_vehicle()[0m
+    [32mThen [0m[32mI select a dealer[0m              [90m# Step_Definition.i_select_a_dealer()[0m
+    [31mThen [0m[31mI select a date and time[0m       [90m# Step_Definition.i_select_a_date_and_time()[0m
+      [31morg.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]"}
+      Command duration or timeout: 60.04 seconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+      Session ID: c89ffee5-8fba-437f-99f1-8702f18891bf
+      *** Element info: {Using=xpath, value=/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at com.mazda.MXPProject.Step_Definition.i_select_a_date_and_time(Step_Definition.java:347)
+      	at ✽.Then I select a date and time(Homepage.feature:31)
+      Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]"}
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+      Driver info: driver.version: unknown
+      	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous3477647189411157619webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+      	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous3477647189411157619webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+      [0m
+    [36mThen [0m[36mI enter contact details[0m        [90m# Step_Definition.i_enter_contact_details()[0m
+    [36mThen [0m[36mI request a Test Drive[0m         [90m# Step_Definition.i_request_a_Test_Drive()[0m
+    [36mThen [0m[36mI will see Thank You![0m          [90m# Step_Definition.i_will_see_Thank_You()[0m
+    [36mAnd [0m[36mI close the browser[0m             [90m# Step_Definition.i_close_the_browser()[0m

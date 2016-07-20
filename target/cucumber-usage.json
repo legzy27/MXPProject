@@ -1,0 +1,92 @@
+[
+  {
+    "source": "^I click Book a Test Drive$",
+    "steps": [
+      {
+        "name": "I click Book a Test Drive",
+        "aggregatedDurations": {
+          "average": 1.977284164,
+          "median": 1.977284164
+        },
+        "durations": [
+          {
+            "duration": 1.977284164,
+            "location": "Homepage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see collection of vehicles$",
+    "steps": [
+      {
+        "name": "I see collection of vehicles",
+        "aggregatedDurations": {
+          "average": 0.13928717,
+          "median": 0.13928717
+        },
+        "durations": [
+          {
+            "duration": 0.13928717,
+            "location": "Homepage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I want to test drive a car$",
+    "steps": [
+      {
+        "name": "I want to test drive a car",
+        "aggregatedDurations": {
+          "average": 1.314421431,
+          "median": 1.314421431
+        },
+        "durations": [
+          {
+            "duration": 1.314421431,
+            "location": "Homepage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select a dealer$",
+    "steps": [
+      {
+        "name": "I select a dealer",
+        "aggregatedDurations": {
+          "average": 1.63920007,
+          "median": 1.63920007
+        },
+        "durations": [
+          {
+            "duration": 1.63920007,
+            "location": "Homepage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select one vehicle$",
+    "steps": [
+      {
+        "name": "I select one vehicle",
+        "aggregatedDurations": {
+          "average": 0.086248959,
+          "median": 0.086248959
+        },
+        "durations": [
+          {
+            "duration": 0.086248959,
+            "location": "Homepage.feature:29"
+          }
+        ]
+      }
+    ]
+  }
+]
