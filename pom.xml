@@ -13,6 +13,19 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+
+<artifactId>thucydides</artifactId>
+        <groupId>net.thucydides</groupId>
+        <version>0.9.275</version>
+    
+    <groupId>net.thucydides</groupId>
+    <artifactId>thucydides-cucumber-plugin</artifactId>
+    <version>0.9.276-SNAPSHOT</version>
+    <name>thucydides-cucumber-plugin</name>
+    <properties>
+            
+    </properties>
 	</properties>
 
 	<dependencies>
@@ -97,6 +110,31 @@
     <version>2.1.21</version>
     <scope>test</scope>
    </dependency> 
+   <dependency>
+    <groupId>net.thucydides</groupId>
+    <artifactId>thucydides-core</artifactId>
+    <version>0.9.275</version>
+</dependency>
+<dependency>
+    <groupId>net.thucydides</groupId>
+    <artifactId>thucydides-test-utils</artifactId>
+    <version>0.9.275</version>
+</dependency>
+<dependency>
+    <groupId>net.thucydides</groupId>
+    <artifactId>thucydides-junit</artifactId>
+    <version>0.9.275</version>     
+</dependency>
+<dependency>
+    <groupId>net.thucydides</groupId>
+    <artifactId>thucydides-cucumber-plugin</artifactId>
+    <version>0.9.275</version>
+</dependency>
+<dependency>
+    <groupId>net.thucydides.maven.plugins</groupId>
+    <artifactId>maven-thucydides-plugin</artifactId>
+    <version>0.9.275</version>
+</dependency>
 	</dependencies>
 	<build>
 		<pluginManagement>

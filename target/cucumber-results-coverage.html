@@ -28,7 +28,7 @@ table {border:1px solid black;border-collapse: collapse;}
       function drawChart() {
         var sc_data = google.visualization.arrayToDataTable([
           ['Status', 'Number'],
-['Covered', 1], ['Not Covered', 0]
+['Covered', 8], ['Not Covered', 2]
         ]);
 
         var sc_options = {
@@ -48,7 +48,7 @@ table {border:1px solid black;border-collapse: collapse;}
         sc_chart.draw(sc_data, sc_options);
         var feat_data = google.visualization.arrayToDataTable([
           ['Status', 'Number'],
-['Covered', 1], ['Not Covered', 0]
+['Covered', 0], ['Not Covered', 1]
         ]);
 
         var feat_options = {
@@ -96,13 +96,13 @@ table {border:1px solid black;border-collapse: collapse;}
                         <rect x="248" y="58" width="11" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
                         <g>
                           <rect x="248" y="58" width="11" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
-                          <circle cx="253.5" cy="63.5" r="5.5" stroke="none" stroke-width="0" fill="#008000"/>
+                          <circle cx="253.5" cy="63.5" r="5.5" stroke="none" stroke-width="0" fill="#ff0000"/>
                         </g>
                       </g>
                       <g>
-                        <path d="M230,143.4L230,158.6A76,60.800000000000004,0,0,1,78,158.6L78,143.4A76,60.800000000000004,0,0,0,230,143.4" stroke="#006000" stroke-width="1" fill="#006000"/>
-                        <ellipse cx="154" cy="143.4" rx="76" ry="60.800000000000004" stroke="#008000" stroke-width="1" fill="#008000"/>
-                        <text text-anchor="start" x="-474" y="147.25" font-family="Arial" font-size="11" stroke="none" stroke-width="0" fill="#ffffff">
+                        <path d="M230,149.48000000000002L230,164.68A76,60.800000000000004,0,0,1,78,164.68L78,149.48000000000002A76,60.800000000000004,0,0,0,230,149.48000000000002" stroke="#bf0000" stroke-width="1" fill="#bf0000"/>
+                        <ellipse cx="154" cy="143.4" rx="76" ry="60.800000000000004" stroke="#ff0000" stroke-width="1" fill="#ff0000"/>
+                        <text text-anchor="start" x="-474" y="153.33" font-family="Arial" font-size="11" stroke="none" stroke-width="0" fill="#ffffff">
                           100%
                         </text>
                       </g>
@@ -126,24 +126,30 @@ table {border:1px solid black;border-collapse: collapse;}
                       <defs id="defs"/>
                       <rect x="0" y="0" width="400" height="300" stroke="none" stroke-width="0" fill="#ffffff"/>
                       <g>
-                        <rect x="248" y="58" width="11" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
+                        <rect x="248" y="58" width="11" height="29" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
                         <g>
                           <rect x="248" y="58" width="11" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
                           <circle cx="253.5" cy="63.5" r="5.5" stroke="none" stroke-width="0" fill="#008000"/>
                         </g>
+                        <g>
+                          <rect x="248" y="76" width="11" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
+                          <circle cx="253.5" cy="81.5" r="5.5" stroke="none" stroke-width="0" fill="#ff0000"/>
+                        </g>
+                      </g>
+                      <g>
+                        <path d="M149.53283208257722,138.48117667420033L149.53283208257722,153.68117667420032L77.25253684414554,134.8929434162035L77.25253684414554,119.6929434162035" stroke="#bf0000" stroke-width="1" fill="#bf0000"/>
+                        <path d="M149.53283208257722,138.48117667420033L77.25253684414554,119.6929434162035A76,60.800000000000004,0,0,1,149.53283208257722,77.68117667420032L149.53283208257722,138.48117667420033A0,0,0,0,0,149.53283208257722,138.48117667420033" stroke="#ff0000" stroke-width="1" fill="#ff0000"/>
                       </g>
                       <g>
                         <path d="M230,143.4L230,158.6A76,60.800000000000004,0,0,1,78,158.6L78,143.4A76,60.800000000000004,0,0,0,230,143.4" stroke="#006000" stroke-width="1" fill="#006000"/>
-                        <ellipse cx="154" cy="143.4" rx="76" ry="60.800000000000004" stroke="#008000" stroke-width="1" fill="#008000"/>
-                        <text text-anchor="start" x="-474" y="147.25" font-family="Arial" font-size="11" stroke="none" stroke-width="0" fill="#ffffff">
-                          100%
-                        </text>
+                        <path d="M154,143.4L154,82.6A76,60.800000000000004,0,1,1,81.71970476156834,124.61176674200318L154,143.4A0,0,0,1,0,154,143.4" stroke="#008000" stroke-width="1" fill="#008000"/>
                       </g>
                       <g/>
                     </svg>
                   </div>
                 </div>
                 <div style="display: none; position: absolute; top: 310px; left: 410px; white-space: nowrap; font-family: Arial; font-size: 11px;" aria-hidden="true">
+                  N…
                 </div>
                 <div>
                 </div>
@@ -180,18 +186,18 @@ table {border:1px solid black;border-collapse: collapse;}
             Not Covered
           </th>
         </tr>
-        <tr class="passed">
+        <tr class="undefined">
           <td>
             This is new upgraded Mazda Europe Homepage
           </td>
           <td>
-            passed
+            undefined
           </td>
           <td>
-            1
+            8
           </td>
           <td>
-            0
+            2
           </td>
           <td>
             @Findadealer, @slow
@@ -234,6 +240,26 @@ table {border:1px solid black;border-collapse: collapse;}
             This is new upgraded Mazda Europe Homepage
           </td>
           <td>
+            Go on mazda canada homepage Find a Dealer
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            10
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            @slow, @Findadealer
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
             I want to drive a mazda car
           </td>
           <td>
@@ -241,6 +267,166 @@ table {border:1px solid black;border-collapse: collapse;}
           </td>
           <td>
             10
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            @slow, @Findadealer
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            @slow, @Findadealer
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            @slow, @Findadealer
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            @slow, @Findadealer
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            @slow, @Findadealer
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            @slow, @Findadealer
+          </td>
+        </tr>
+        <tr class="undefined">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            undefined
+          </td>
+          <td>
+            7
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            @slow, @Findadealer
+          </td>
+        </tr>
+        <tr class="undefined">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            undefined
+          </td>
+          <td>
+            7
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            @slow, @Findadealer
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
           </td>
           <td>
             0

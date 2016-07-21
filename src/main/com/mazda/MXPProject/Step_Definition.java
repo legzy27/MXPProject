@@ -16,15 +16,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.firefox.internal.ProfilesIni;
+
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import java.util.Set;
-import com.gargoylesoftware.htmlunit.javascript.host.file.File;
-//import com.gargoylesoftware.htmlunit.javascript.host.Set;
+
 import com.mazda.MXPProject.pageObject.GoHomePage;
 import com.mazda.MXPProject.util.webUtil;
+
+import java.util.Set;
 import java.util.Iterator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Platform;
@@ -32,6 +32,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+
 
 
 public class Step_Definition {
@@ -47,7 +48,7 @@ public class Step_Definition {
 	public void its_my_first_time_on_the_mazda_website() throws Throwable {
 		GoHomePage gohomePage = webUtil.goHomePage(driver);
 		//	driver.get("http://www.mazda.ca");	
-		driver.manage().window().maximize();
+	 //	driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		Thread.sleep(2000);

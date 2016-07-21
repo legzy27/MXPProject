@@ -28,7 +28,7 @@ table {border:1px solid black;border-collapse: collapse;}
       function drawChart() {
         var sc_data = google.visualization.arrayToDataTable([
           ['Status', 'Number'],
-['Passed', 0], ['Failed', 1], ['Undefined', 0]
+['Passed', 6], ['Failed', 2], ['Undefined', 2]
         ]);
 
         var sc_options = {
@@ -126,24 +126,39 @@ table {border:1px solid black;border-collapse: collapse;}
                       <defs id="defs"/>
                       <rect x="0" y="0" width="400" height="300" stroke="none" stroke-width="0" fill="#ffffff"/>
                       <g>
-                        <rect x="248" y="58" width="11" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
+                        <rect x="248" y="58" width="11" height="47" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
                         <g>
                           <rect x="248" y="58" width="11" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
-                          <circle cx="253.5" cy="63.5" r="5.5" stroke="none" stroke-width="0" fill="#ff0000"/>
+                          <circle cx="253.5" cy="63.5" r="5.5" stroke="none" stroke-width="0" fill="#008000"/>
+                        </g>
+                        <g>
+                          <rect x="248" y="76" width="11" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
+                          <circle cx="253.5" cy="81.5" r="5.5" stroke="none" stroke-width="0" fill="#ff0000"/>
+                        </g>
+                        <g>
+                          <rect x="248" y="94" width="11" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"/>
+                          <circle cx="253.5" cy="99.5" r="5.5" stroke="none" stroke-width="0" fill="#c0c0c0"/>
                         </g>
                       </g>
                       <g>
-                        <path d="M230,149.48000000000002L230,164.68A76,60.800000000000004,0,0,1,78,164.68L78,149.48000000000002A76,60.800000000000004,0,0,0,230,149.48000000000002" stroke="#bf0000" stroke-width="1" fill="#bf0000"/>
-                        <ellipse cx="154" cy="143.4" rx="76" ry="60.800000000000004" stroke="#ff0000" stroke-width="1" fill="#ff0000"/>
-                        <text text-anchor="start" x="-474" y="153.33" font-family="Arial" font-size="11" stroke="none" stroke-width="0" fill="#ffffff">
-                          100%
-                        </text>
+                        <path d="M149.53283208257722,138.48117667420033L149.53283208257722,153.68117667420032L77.25253684414554,134.8929434162035L77.25253684414554,119.6929434162035" stroke="#909090" stroke-width="1" fill="#909090"/>
+                        <path d="M149.53283208257722,138.48117667420033L77.25253684414554,119.6929434162035A76,60.800000000000004,0,0,1,149.53283208257722,77.68117667420032L149.53283208257722,138.48117667420033A0,0,0,0,0,149.53283208257722,138.48117667420033" stroke="#c0c0c0" stroke-width="1" fill="#c0c0c0"/>
+                      </g>
+                      <g>
+                        <path d="M102.10029130192889,194.4670565837965L102.10029130192889,209.6670565837965A76,60.800000000000004,0,0,1,70.77197047615684,160.47882332579968L70.77197047615684,145.2788233257997A76,60.800000000000004,0,0,0,102.10029130192889,194.4670565837965" stroke="#bf0000" stroke-width="1" fill="#bf0000"/>
+                        <path d="M146.77197047615684,145.2788233257997L146.77197047615684,160.47882332579968L102.10029130192889,209.6670565837965L102.10029130192889,194.4670565837965" stroke="#bf0000" stroke-width="1" fill="#bf0000"/>
+                        <path d="M146.77197047615684,145.2788233257997L102.10029130192889,194.4670565837965A76,60.800000000000004,0,0,1,74.49167523772518,126.49059006780287L146.77197047615684,145.2788233257997A0,0,0,0,0,146.77197047615684,145.2788233257997" stroke="#ff0000" stroke-width="1" fill="#ff0000"/>
+                      </g>
+                      <g>
+                        <path d="M230,143.4L230,158.6A76,60.800000000000004,0,0,1,109.32832082577205,207.7882332579968L109.32832082577205,192.58823325799682A76,60.800000000000004,0,0,0,230,143.4" stroke="#006000" stroke-width="1" fill="#006000"/>
+                        <path d="M154,143.4L154,82.6A76,60.800000000000004,0,1,1,109.32832082577205,192.58823325799682L154,143.4A0,0,0,1,0,154,143.4" stroke="#008000" stroke-width="1" fill="#008000"/>
                       </g>
                       <g/>
                     </svg>
                   </div>
                 </div>
                 <div style="display: none; position: absolute; top: 310px; left: 410px; white-space: nowrap; font-family: Arial; font-size: 11px;" aria-hidden="true">
+                  U…
                 </div>
                 <div>
                 </div>
@@ -186,16 +201,16 @@ table {border:1px solid black;border-collapse: collapse;}
             failed
           </td>
           <td>
-            0
+            6
           </td>
           <td>
-            1
+            2
           </td>
           <td>
-            0
+            2
           </td>
           <td>
-            75.69s
+            484.65s
           </td>
         </tr>
       </tbody>
@@ -231,6 +246,32 @@ table {border:1px solid black;border-collapse: collapse;}
             Duration
           </th>
         </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            Go on mazda canada homepage Find a Dealer
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            10
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            37.04s
+          </td>
+        </tr>
         <tr class="failed">
           <td>
             This is new upgraded Mazda Europe Homepage
@@ -242,19 +283,227 @@ table {border:1px solid black;border-collapse: collapse;}
             failed
           </td>
           <td>
-            5
+            2
           </td>
           <td>
             1
           </td>
           <td>
-            4
+            7
           </td>
           <td>
             0
           </td>
           <td>
-            75.69s
+            69.56s
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            14.89s
+          </td>
+        </tr>
+        <tr class="failed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            failed
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            7
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            277.57s
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            14.46s
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            15.25s
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            14.89s
+          </td>
+        </tr>
+        <tr class="undefined">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            undefined
+          </td>
+          <td>
+            2
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            6
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            12.93s
+          </td>
+        </tr>
+        <tr class="undefined">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            undefined
+          </td>
+          <td>
+            2
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            6
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            12.96s
+          </td>
+        </tr>
+        <tr class="passed">
+          <td>
+            This is new upgraded Mazda Europe Homepage
+          </td>
+          <td>
+            I want to request a quote
+          </td>
+          <td>
+            passed
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            15.10s
           </td>
         </tr>
       </tbody>

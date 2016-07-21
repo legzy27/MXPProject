@@ -1,26 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="78.339153">
-<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to drive a mazda car" time="78.339153">
-<failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]&quot;}&#10;Command duration or timeout: 60.04 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: c89ffee5-8fba-437f-99f1-8702f18891bf&#10;*** Element info: {Using=xpath, value=/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)&#13;&#10;&#9;at com.mazda.MXPProject.Step_Definition.i_select_a_date_and_time(Step_Definition.java:347)&#13;&#10;&#9;at ✽.Then I select a date and time(Homepage.feature:31)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]&quot;}&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous3477647189411157619webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous3477647189411157619webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)&#13;&#10;"><![CDATA[Given I want to test drive a car............................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="10" time="484.679329">
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="Go on mazda canada homepage Find a Dealer" time="37.043874">
+<system-out><![CDATA[Given Its my first time on the mazda website................................passed
+When click on 'Mazda Home'..................................................passed
+Then I go to 'Find a Dealer'................................................passed
+Then I click on search by location i see the names of all the dealer........passed
+Then I click on search by postal code i enter postcode......................passed
+Then I enter correct postal code M5P 2N7....................................passed
+Then I enter incorrect postal code E3 3LP...................................passed
+Then I get an error message.................................................passed
+Then I search by dealer name................................................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to drive a mazda car" time="69.562204">
+<failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/div[3]/div/div/div/section/div/ul/li[1]/div/a&quot;}&#10;Command duration or timeout: 60.08 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 57eced27-8889-4631-a8b6-931bca85a870&#10;*** Element info: {Using=xpath, value=html/body/div[1]/div[3]/div/div/div/section/div/ul/li[1]/div/a}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)&#13;&#10;&#9;at com.mazda.MXPProject.Step_Definition.i_see_collection_of_vehicles(Step_Definition.java:311)&#13;&#10;&#9;at ✽.Then I see collection of vehicles(Homepage.feature:28)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[1]/div[3]/div/div/div/section/div/ul/li[1]/div/a&quot;}&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous7824242601832501735webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous7824242601832501735webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)&#13;&#10;"><![CDATA[Given I want to test drive a car............................................passed
 When I click Book a Test Drive..............................................passed
-Then I see collection of vehicles...........................................passed
-Then I select one vehicle...................................................passed
-Then I select a dealer......................................................passed
-Then I select a date and time...............................................failed
+Then I see collection of vehicles...........................................failed
+Then I select one vehicle...................................................skipped
+Then I select a dealer......................................................skipped
+Then I select a date and time...............................................skipped
 Then I enter contact details................................................skipped
 Then I request a Test Drive.................................................skipped
 Then I will see Thank You!..................................................skipped
 And I close the browser.....................................................skipped
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]"}
-Command duration or timeout: 60.04 seconds
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[3]/div/div/div/section/div/ul/li[1]/div/a"}
+Command duration or timeout: 60.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c89ffee5-8fba-437f-99f1-8702f18891bf
-*** Element info: {Using=xpath, value=/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]}
+Session ID: 57eced27-8889-4631-a8b6-931bca85a870
+*** Element info: {Using=xpath, value=html/body/div[1]/div[3]/div/div/div/section/div/ul/li[1]/div/a}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -32,15 +45,201 @@ Session ID: c89ffee5-8fba-437f-99f1-8702f18891bf
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.mazda.MXPProject.Step_Definition.i_select_a_date_and_time(Step_Definition.java:347)
-	at ✽.Then I select a date and time(Homepage.feature:31)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[3]/div/div/div/section/div/ul/li[3]/ul/li/form/div[1]/div[1]/fieldset/div/div/div[1]/div/div/div[1]/table/tbody/tr[3]/td[9]"}
+	at com.mazda.MXPProject.Step_Definition.i_see_collection_of_vehicles(Step_Definition.java:311)
+	at ✽.Then I see collection of vehicles(Homepage.feature:28)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[3]/div/div/div/section/div/ul/li[1]/div/a"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous3477647189411157619webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous3477647189411157619webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous7824242601832501735webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/aoyedele/AppData/Local/Temp/anonymous7824242601832501735webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 ]]></failure>
+</testcase>
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to request a quote" time="14.891614">
+<system-out><![CDATA[Given I am shopping Tools page..............................................passed
+When I select vehicle.......................................................passed
+Then I see list of 2016 MAZDA3..............................................passed
+And I select one mazda vehicle..............................................passed
+And I select a dealer.......................................................passed
+And I Enter contact details.................................................passed
+And I change Province.......................................................passed
+And I request quote.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to request a quote 2" time="277.575837">
+<failure message="org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'&#10;Driver info: driver.version: RemoteWebDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: c6413120-09c7-41a4-897a-677c2ba6fd2a&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)&#13;&#10;&#9;at com.mazda.MXPProject.Step_Definition.i_am_shopping_Tools_page(Step_Definition.java:412)&#13;&#10;&#9;at ✽.Given I am shopping Tools page(Homepage.feature:38)&#13;&#10;Caused by: java.net.SocketException: Connection reset&#13;&#10;&#9;at java.net.SocketInputStream.read(SocketInputStream.java:209)&#13;&#10;&#9;at java.net.SocketInputStream.read(SocketInputStream.java:141)&#13;&#10;&#9;at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:87)&#13;&#10;&#9;at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)&#13;&#10;&#9;at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)&#13;&#10;&#9;at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)&#13;&#10;&#9;at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)&#13;&#10;&#9;at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)&#13;&#10;&#9;at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)&#13;&#10;&#9;at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)&#13;&#10;&#9;at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)&#13;&#10;&#9;at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)&#13;&#10;&#9;at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)&#13;&#10;&#9;at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)&#13;&#10;&#9;at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)&#13;&#10;&#9;at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)&#13;&#10;&#9;at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)&#13;&#10;&#9;at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)&#13;&#10;&#9;at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)&#13;&#10;&#9;at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)&#13;&#10;&#9;at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)&#13;&#10;&#9;at com.mazda.MXPProject.Step_Definition.i_am_shopping_Tools_page(Step_Definition.java:412)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:37)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:13)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:31)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:299)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner.run(ExtendedExecutionUnitRunner.java:35)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.runChild(ExtendedExamplesRunner.java:103)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.runChild(ExtendedExamplesRunner.java:19)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.run(ExtendedExamplesRunner.java:87)&#13;&#10;&#9;at org.junit.runners.Suite.runChild(Suite.java:128)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedScenarioOutlineRunner.runChild(ExtendedScenarioOutlineRunner.java:69)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedScenarioOutlineRunner.runChild(ExtendedScenarioOutlineRunner.java:17)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedScenarioOutlineRunner.run(ExtendedScenarioOutlineRunner.java:64)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.runChild(ExtendedFeatureRunner.java:76)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.runChild(ExtendedFeatureRunner.java:22)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedCucumber.runChild(ExtendedCucumber.java:72)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedCucumber.runChild(ExtendedCucumber.java:28)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at com.github.mkolisnyk.cucumber.runner.ExtendedCucumber.run(ExtendedCucumber.java:141)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;&#10;"><![CDATA[Given I am shopping Tools page..............................................failed
+When I select vehicle.......................................................skipped
+Then I see list of 2016 MAZDA3 SPORT........................................skipped
+And I select one mazda vehicle..............................................skipped
+And I select a dealer.......................................................skipped
+And I Enter contact details.................................................skipped
+And I change Province.......................................................skipped
+And I request quote.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SYZYGY-1151', ip: '192.168.3.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c6413120-09c7-41a4-897a-677c2ba6fd2a
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at com.mazda.MXPProject.Step_Definition.i_am_shopping_Tools_page(Step_Definition.java:412)
+	at ✽.Given I am shopping Tools page(Homepage.feature:38)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:87)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at com.mazda.MXPProject.Step_Definition.i_am_shopping_Tools_page(Step_Definition.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedExecutionUnitRunner.run(ExtendedExecutionUnitRunner.java:35)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.runChild(ExtendedExamplesRunner.java:103)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.runChild(ExtendedExamplesRunner.java:19)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedExamplesRunner.run(ExtendedExamplesRunner.java:87)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedScenarioOutlineRunner.runChild(ExtendedScenarioOutlineRunner.java:69)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedScenarioOutlineRunner.runChild(ExtendedScenarioOutlineRunner.java:17)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedScenarioOutlineRunner.run(ExtendedScenarioOutlineRunner.java:64)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.runChild(ExtendedFeatureRunner.java:76)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedFeatureRunner.runChild(ExtendedFeatureRunner.java:22)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedCucumber.runChild(ExtendedCucumber.java:72)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedCucumber.runChild(ExtendedCucumber.java:28)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at com.github.mkolisnyk.cucumber.runner.ExtendedCucumber.run(ExtendedCucumber.java:141)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+]]></failure>
+</testcase>
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to request a quote 3" time="14.465077">
+<system-out><![CDATA[Given I am shopping Tools page..............................................passed
+When I select vehicle.......................................................passed
+Then I see list of 2016 MAZDA6..............................................passed
+And I select one mazda vehicle..............................................passed
+And I select a dealer.......................................................passed
+And I Enter contact details.................................................passed
+And I change Province.......................................................passed
+And I request quote.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to request a quote 4" time="15.2571">
+<system-out><![CDATA[Given I am shopping Tools page..............................................passed
+When I select vehicle.......................................................passed
+Then I see list of 2016 MAZDA5..............................................passed
+And I select one mazda vehicle..............................................passed
+And I select a dealer.......................................................passed
+And I Enter contact details.................................................passed
+And I change Province.......................................................passed
+And I request quote.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to request a quote 5" time="14.892271">
+<system-out><![CDATA[Given I am shopping Tools page..............................................passed
+When I select vehicle.......................................................passed
+Then I see list of 2017 CX3.................................................passed
+And I select one mazda vehicle..............................................passed
+And I select a dealer.......................................................passed
+And I Enter contact details.................................................passed
+And I change Province.......................................................passed
+And I request quote.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to request a quote 6" time="12.927388">
+<skipped><![CDATA[Given I am shopping Tools page..............................................passed
+When I select vehicle.......................................................passed
+Then I see list of 2016.5 CX-5..............................................undefined
+And I select one mazda vehicle..............................................skipped
+And I select a dealer.......................................................skipped
+And I Enter contact details.................................................skipped
+And I change Province.......................................................skipped
+And I request quote.........................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to request a quote 7" time="12.958358">
+<skipped><![CDATA[Given I am shopping Tools page..............................................passed
+When I select vehicle.......................................................passed
+Then I see list of 2016 CX-9................................................undefined
+And I select one mazda vehicle..............................................skipped
+And I select a dealer.......................................................skipped
+And I Enter contact details.................................................skipped
+And I change Province.......................................................skipped
+And I request quote.........................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="This is new upgraded Mazda Europe Homepage" name="I want to request a quote 8" time="15.105606">
+<system-out><![CDATA[Given I am shopping Tools page..............................................passed
+When I select vehicle.......................................................passed
+Then I see list of 2016 MX-5................................................passed
+And I select one mazda vehicle..............................................passed
+And I select a dealer.......................................................passed
+And I Enter contact details.................................................passed
+And I change Province.......................................................passed
+And I request quote.........................................................passed
+]]></system-out>
 </testcase>
 </testsuite>

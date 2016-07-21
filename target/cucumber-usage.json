@@ -1,16 +1,60 @@
 [
   {
+    "source": "^I see list of (\\d+) MAZDA(\\d+)$",
+    "steps": [
+      {
+        "name": "I see list of 2016 MAZDA3",
+        "aggregatedDurations": {
+          "average": 0.000152245,
+          "median": 0.000152245
+        },
+        "durations": [
+          {
+            "duration": 0.000152245,
+            "location": "Homepage.feature:40"
+          }
+        ]
+      },
+      {
+        "name": "I see list of 2016 MAZDA6",
+        "aggregatedDurations": {
+          "average": 0.00009665,
+          "median": 0.00009665
+        },
+        "durations": [
+          {
+            "duration": 0.00009665,
+            "location": "Homepage.feature:40"
+          }
+        ]
+      },
+      {
+        "name": "I see list of 2016 MAZDA5",
+        "aggregatedDurations": {
+          "average": 0.000116322,
+          "median": 0.000116322
+        },
+        "durations": [
+          {
+            "duration": 0.000116322,
+            "location": "Homepage.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "source": "^I click Book a Test Drive$",
     "steps": [
       {
         "name": "I click Book a Test Drive",
         "aggregatedDurations": {
-          "average": 1.977284164,
-          "median": 1.977284164
+          "average": 0.991190044,
+          "median": 0.991190044
         },
         "durations": [
           {
-            "duration": 1.977284164,
+            "duration": 0.991190044,
             "location": "Homepage.feature:27"
           }
         ]
@@ -18,18 +62,322 @@
     ]
   },
   {
-    "source": "^I see collection of vehicles$",
+    "source": "^I enter correct postal code M(\\d+)P (\\d+)N(\\d+)$",
     "steps": [
       {
-        "name": "I see collection of vehicles",
+        "name": "I enter correct postal code M5P 2N7",
         "aggregatedDurations": {
-          "average": 0.13928717,
-          "median": 0.13928717
+          "average": 5.326638649,
+          "median": 5.326638649
         },
         "durations": [
           {
-            "duration": 0.13928717,
-            "location": "Homepage.feature:28"
+            "duration": 5.326638649,
+            "location": "Homepage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I go to \u0027Find a Dealer\u0027$",
+    "steps": [
+      {
+        "name": "I go to \u0027Find a Dealer\u0027",
+        "aggregatedDurations": {
+          "average": 4.893928426,
+          "median": 4.893928426
+        },
+        "durations": [
+          {
+            "duration": 4.893928426,
+            "location": "Homepage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on search by location i see the names of all the dealer$",
+    "steps": [
+      {
+        "name": "I click on search by location i see the names of all the dealer",
+        "aggregatedDurations": {
+          "average": 2.000024234,
+          "median": 2.000024234
+        },
+        "durations": [
+          {
+            "duration": 2.000024234,
+            "location": "Homepage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I change Province$",
+    "steps": [
+      {
+        "name": "I change Province",
+        "aggregatedDurations": {
+          "average": 0.00001511,
+          "median": 0.000009694
+        },
+        "durations": [
+          {
+            "duration": 0.000030506,
+            "location": "Homepage.feature:44"
+          },
+          {
+            "duration": 0.000009408,
+            "location": "Homepage.feature:44"
+          },
+          {
+            "duration": 0.000009694,
+            "location": "Homepage.feature:44"
+          },
+          {
+            "duration": 0.000016821,
+            "location": "Homepage.feature:44"
+          },
+          {
+            "duration": 0.000009123,
+            "location": "Homepage.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am shopping Tools page$",
+    "steps": [
+      {
+        "name": "I am shopping Tools page",
+        "aggregatedDurations": {
+          "average": 3.704429105,
+          "median": 3.59821714
+        },
+        "durations": [
+          {
+            "duration": 3.59821714,
+            "location": "Homepage.feature:38"
+          },
+          {
+            "duration": 3.518385555,
+            "location": "Homepage.feature:38"
+          },
+          {
+            "duration": 4.332210694,
+            "location": "Homepage.feature:38"
+          },
+          {
+            "duration": 3.551125315,
+            "location": "Homepage.feature:38"
+          },
+          {
+            "duration": 3.577773856,
+            "location": "Homepage.feature:38"
+          },
+          {
+            "duration": 3.70736554,
+            "location": "Homepage.feature:38"
+          },
+          {
+            "duration": 3.645925641,
+            "location": "Homepage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I Enter contact details$",
+    "steps": [
+      {
+        "name": "I Enter contact details",
+        "aggregatedDurations": {
+          "average": 0.000021211,
+          "median": 0.000020528
+        },
+        "durations": [
+          {
+            "duration": 0.000024519,
+            "location": "Homepage.feature:43"
+          },
+          {
+            "duration": 0.000019672,
+            "location": "Homepage.feature:43"
+          },
+          {
+            "duration": 0.000019957,
+            "location": "Homepage.feature:43"
+          },
+          {
+            "duration": 0.000021383,
+            "location": "Homepage.feature:43"
+          },
+          {
+            "duration": 0.000020528,
+            "location": "Homepage.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I request quote$",
+    "steps": [
+      {
+        "name": "I request quote",
+        "aggregatedDurations": {
+          "average": 0.000014711,
+          "median": 0.000009408
+        },
+        "durations": [
+          {
+            "duration": 0.000032786,
+            "location": "Homepage.feature:45"
+          },
+          {
+            "duration": 0.000009408,
+            "location": "Homepage.feature:45"
+          },
+          {
+            "duration": 0.000009124,
+            "location": "Homepage.feature:45"
+          },
+          {
+            "duration": 0.000013115,
+            "location": "Homepage.feature:45"
+          },
+          {
+            "duration": 0.000009123,
+            "location": "Homepage.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see list of (\\d+) CX(\\d+)$",
+    "steps": [
+      {
+        "name": "I see list of 2017 CX3",
+        "aggregatedDurations": {
+          "average": 0.000084961,
+          "median": 0.000084961
+        },
+        "durations": [
+          {
+            "duration": 0.000084961,
+            "location": "Homepage.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on \u0027Mazda Home\u0027$",
+    "steps": [
+      {
+        "name": "click on \u0027Mazda Home\u0027",
+        "aggregatedDurations": {
+          "average": 0.695022878,
+          "median": 0.695022878
+        },
+        "durations": [
+          {
+            "duration": 0.695022878,
+            "location": "Homepage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter incorrect postal code E(\\d+) (\\d+)LP$",
+    "steps": [
+      {
+        "name": "I enter incorrect postal code E3 3LP",
+        "aggregatedDurations": {
+          "average": 5.295448992,
+          "median": 5.295448992
+        },
+        "durations": [
+          {
+            "duration": 5.295448992,
+            "location": "Homepage.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close browser$",
+    "steps": [
+      {
+        "name": "close browser",
+        "aggregatedDurations": {
+          "average": 0.015774728,
+          "median": 0.015774728
+        },
+        "durations": [
+          {
+            "duration": 0.015774728,
+            "location": "Homepage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select one mazda vehicle$",
+    "steps": [
+      {
+        "name": "I select one mazda vehicle",
+        "aggregatedDurations": {
+          "average": 0.000015566,
+          "median": 0.000017106
+        },
+        "durations": [
+          {
+            "duration": 0.000017106,
+            "location": "Homepage.feature:41"
+          },
+          {
+            "duration": 0.000017392,
+            "location": "Homepage.feature:41"
+          },
+          {
+            "duration": 0.000014255,
+            "location": "Homepage.feature:41"
+          },
+          {
+            "duration": 0.000010263,
+            "location": "Homepage.feature:41"
+          },
+          {
+            "duration": 0.000018817,
+            "location": "Homepage.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see list of (\\d+) MX-(\\d+)$",
+    "steps": [
+      {
+        "name": "I see list of 2016 MX-5",
+        "aggregatedDurations": {
+          "average": 0.000100356,
+          "median": 0.000100356
+        },
+        "durations": [
+          {
+            "duration": 0.000100356,
+            "location": "Homepage.feature:40"
           }
         ]
       }
@@ -41,13 +389,109 @@
       {
         "name": "I want to test drive a car",
         "aggregatedDurations": {
-          "average": 1.314421431,
-          "median": 1.314421431
+          "average": 1.51856802,
+          "median": 1.51856802
         },
         "durations": [
           {
-            "duration": 1.314421431,
+            "duration": 1.51856802,
             "location": "Homepage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I search by dealer name$",
+    "steps": [
+      {
+        "name": "I search by dealer name",
+        "aggregatedDurations": {
+          "average": 6.190261807,
+          "median": 6.190261807
+        },
+        "durations": [
+          {
+            "duration": 6.190261807,
+            "location": "Homepage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select vehicle$",
+    "steps": [
+      {
+        "name": "I select vehicle",
+        "aggregatedDurations": {
+          "average": 2.297956836,
+          "median": 2.270592321
+        },
+        "durations": [
+          {
+            "duration": 2.439510205,
+            "location": "Homepage.feature:39"
+          },
+          {
+            "duration": 2.270592321,
+            "location": "Homepage.feature:39"
+          },
+          {
+            "duration": 2.301620893,
+            "location": "Homepage.feature:39"
+          },
+          {
+            "duration": 2.226103483,
+            "location": "Homepage.feature:39"
+          },
+          {
+            "duration": 2.240175577,
+            "location": "Homepage.feature:39"
+          },
+          {
+            "duration": 2.260665902,
+            "location": "Homepage.feature:39"
+          },
+          {
+            "duration": 2.347029473,
+            "location": "Homepage.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I get an error message$",
+    "steps": [
+      {
+        "name": "I get an error message",
+        "aggregatedDurations": {
+          "average": 0.000078403,
+          "median": 0.000078403
+        },
+        "durations": [
+          {
+            "duration": 0.000078403,
+            "location": "Homepage.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on search by postal code i enter postcode$",
+    "steps": [
+      {
+        "name": "I click on search by postal code i enter postcode",
+        "aggregatedDurations": {
+          "average": 0.76962625,
+          "median": 0.76962625
+        },
+        "durations": [
+          {
+            "duration": 0.76962625,
+            "location": "Homepage.feature:12"
           }
         ]
       }
@@ -59,31 +503,47 @@
       {
         "name": "I select a dealer",
         "aggregatedDurations": {
-          "average": 1.63920007,
-          "median": 1.63920007
+          "average": 1.684786268,
+          "median": 1.687595954
         },
         "durations": [
           {
-            "duration": 1.63920007,
-            "location": "Homepage.feature:30"
+            "duration": 1.764576798,
+            "location": "Homepage.feature:42"
+          },
+          {
+            "duration": 1.687595954,
+            "location": "Homepage.feature:42"
+          },
+          {
+            "duration": 1.688639146,
+            "location": "Homepage.feature:42"
+          },
+          {
+            "duration": 1.65016084,
+            "location": "Homepage.feature:42"
+          },
+          {
+            "duration": 1.632958604,
+            "location": "Homepage.feature:42"
           }
         ]
       }
     ]
   },
   {
-    "source": "^I select one vehicle$",
+    "source": "^Its my first time on the mazda website$",
     "steps": [
       {
-        "name": "I select one vehicle",
+        "name": "Its my first time on the mazda website",
         "aggregatedDurations": {
-          "average": 0.086248959,
-          "median": 0.086248959
+          "average": 3.193250823,
+          "median": 3.193250823
         },
         "durations": [
           {
-            "duration": 0.086248959,
-            "location": "Homepage.feature:29"
+            "duration": 3.193250823,
+            "location": "Homepage.feature:8"
           }
         ]
       }
